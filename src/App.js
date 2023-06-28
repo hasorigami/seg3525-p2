@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import StoreNavbar from "./components/NavbarComponent"
+import PageHeader from "./components/HeaderComponent";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello world!
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          React is easy
-        </a>
-      </header>
+      <PageHeader></PageHeader>
+      <StoreNavbar />
+      <p>Hello world!</p>
     </div>
   );
 }
