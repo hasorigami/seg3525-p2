@@ -1,5 +1,5 @@
-import { Container, Row, Col } from "react-bootstrap";
-
+import { Container, Row, Col, Image } from "react-bootstrap";
+import "holderjs";
 
 function PageHeader() {
   return(
@@ -7,6 +7,7 @@ function PageHeader() {
       <Container>
         <Row>
           <Col>
+            <Image src="holder.js/200x200" rounded /> 
             <h1>test</h1>
           </Col>
           <Col>
