@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/seg3525-p2/static/css/main.c944bf16.css",
+    "main.js": "/seg3525-p2/static/js/main.ed00d477.js",
+    "index.html": "/seg3525-p2/index.html",
+    "main.c944bf16.css.map": "/seg3525-p2/static/css/main.c944bf16.css.map",
+    "main.ed00d477.js.map": "/seg3525-p2/static/js/main.ed00d477.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c944bf16.css",
+    "static/js/main.ed00d477.js"
+  ]
+}
