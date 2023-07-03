@@ -5,13 +5,12 @@ import PageHeader from "../components/HeaderComponent";
 
 function InstrumentsPage() {
   return (
-    <>
+    <div>
       <PageHeader></PageHeader>
       <StoreNavbar></StoreNavbar>
-      <p>WE SHOP INSTRUMENTS HERE</p>
-    </>
-
-  )
+      <h1>Buy your instruments here.</h1>
+    </div>
+  );
 }
 
 export default InstrumentsPage;

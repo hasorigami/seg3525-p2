@@ -8,16 +8,22 @@ function StoreNavbar() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand>Home</Navbar.Brand>
+        <LinkContainer to='/'>
+          <Navbar.Brand>Home</Navbar.Brand>
+        </LinkContainer>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#link">About</Nav.Link> 
+            <LinkContainer to='/about'>
+              <Nav.Link>About</Nav.Link> 
+            </LinkContainer>
             <NavDropdown title="Shop">
               <LinkContainer to='/instruments'>
                 <NavDropdown.Item>Instruments</NavDropdown.Item>
               </LinkContainer>
-              <NavDropdown.Item href="#books">Books</NavDropdown.Item>
+              <LinkContainer to='/books'>
+                <NavDropdown.Item>Books</NavDropdown.Item>
+              </LinkContainer>
             </NavDropdown>
           </Nav>
           
