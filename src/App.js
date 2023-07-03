@@ -1,17 +1,26 @@
-import StoreNavbar from "./components/NavbarComponent";
-import PageHeader from "./components/HeaderComponent";
-import HomePage from "./components/HomePage";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
+
+// import pages
+import Layout from "./pages/Layout";
+import HomePage from "./pages/HomePage";
+import InstrumentsPage from "./pages/Instruments";
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 
 function App() {
   return (
-    <div className="App">
-      <PageHeader></PageHeader>
-      <StoreNavbar />
-      <HomePage />
-      <p>Hello world!</p>
-    </div>
+    <>
+      <BrowserRouter>
+        <Routes>
+            <Route path="/" element={<Layout />} />
+              <Route index element={<HomePage />} />
+              <Route path="instruments" element={InstrumentsPage}></Route>
+              <Route path="*" element={<HomePage />} />
+        </Routes>
+      </BrowserRouter>
+    </>
+
   );
 }
 

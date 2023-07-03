@@ -5,15 +5,10 @@ function PageHeader() {
   return(
     <div className="headerComponent">
       <Container>
-        <Row>
-          <Col>
-            <Image src="holder.js/200x200" rounded /> 
-            <h1>test</h1>
-          </Col>
-          <Col>
-            <h1>Test2</h1>
-          </Col>
-        </Row>
+        <div className="headerContents">
+          <Image src="holder.js/100x100" rounded />
+          <h1>Piano & Guitar Central</h1>
+        </div>
       </Container>
     </div>
   )
