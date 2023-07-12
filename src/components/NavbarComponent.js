@@ -34,8 +34,15 @@ function StoreNavbar() {
           </Nav>
           
           <Nav>
-            <Nav.Link className='d-flex'>Cart</Nav.Link>
-            <Button className='d-flex'>Log in</Button>
+
+            <LinkContainer to='/cart'>
+              <Nav.Link className='d-flex'>Cart</Nav.Link>
+            </LinkContainer>
+
+            <LinkContainer to='/login'>
+              <Button className='d-flex'>Log in</Button>
+            </LinkContainer>
+
           </Nav>
         </Navbar.Collapse>
 

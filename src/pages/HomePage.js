@@ -63,6 +63,7 @@ function LearnAnInstrument() {
     <Container className="learnInstrument">
       <h1>New to playing? Browse here.</h1>
       <Image src="holder.js/1300x300"></Image>
+      
     </Container>
   )
 }

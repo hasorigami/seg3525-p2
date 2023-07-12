@@ -5,6 +5,8 @@ import HomePage from "./pages/HomePage";
 import InstrumentsShop from "./pages/InstrumentsShop";
 import BooksShop from "./pages/BooksShop";
 import AboutPage from "./pages/AboutPage";
+import LoginPage from "./pages/LoginPage";
+import CartPage from "./pages/CartPage";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
@@ -17,7 +19,11 @@ function App() {
           <Route path="instruments" element={<InstrumentsShop />}></Route>
           <Route path="books" element={<BooksShop />}></Route>
           <Route path="about" element={<AboutPage />} />
+          <Route path="cart" element={<CartPage />} />
+          <Route path="login" element={<LoginPage />} />
+
           <Route path="*" element={<HomePage />} />
+          
       </Routes>
     </div>
 
