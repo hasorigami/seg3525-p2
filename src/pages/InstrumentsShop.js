@@ -3,7 +3,7 @@ import StoreNavbar from "../components/NavbarComponent";
 import PageHeader from "../components/HeaderComponent";
 
 
-function InstrumentsPage() {
+function InstrumentsShop() {
   return (
     <div>
       <PageHeader></PageHeader>
@@ -13,4 +13,4 @@ function InstrumentsPage() {
   );
 }
 
-export default InstrumentsPage;
+export default InstrumentsShop;

@@ -2,8 +2,8 @@ import { Routes, Route } from "react-router-dom";
 
 // import pages
 import HomePage from "./pages/HomePage";
-import InstrumentsPage from "./pages/InstrumentsPage";
-import BooksPage from "./pages/BooksPage";
+import InstrumentsShop from "./pages/InstrumentsShop";
+import BooksShop from "./pages/BooksShop";
 import AboutPage from "./pages/AboutPage";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -14,8 +14,8 @@ function App() {
     <div>
       <Routes>
           <Route index element={<HomePage />} />
-          <Route path="instruments" element={<InstrumentsPage />}></Route>
-          <Route path="books" element={<BooksPage />}></Route>
+          <Route path="instruments" element={<InstrumentsShop />}></Route>
+          <Route path="books" element={<BooksShop />}></Route>
           <Route path="about" element={<AboutPage />} />
           <Route path="*" element={<HomePage />} />
       </Routes>

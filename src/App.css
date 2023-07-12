@@ -1,4 +1,6 @@
 
+
+
 /* HEADER STYLE */
 .headerComponent {
   background-color: rgb(133, 133, 133);
@@ -17,4 +19,20 @@
 .headerComponent .headerContents h1{
   font-size: 4em;
   line-height: 1.5em;
+}
+
+
+/* HOME PAGE STYLES */
+
+.homePageSlide {
+  background-color: red;
+}
+
+.homePageSlide img {
+  height: 500px;
+  object-fit: cover;
+}
+
+h1 {
+  text-align: center;
 }
