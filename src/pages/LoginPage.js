@@ -20,6 +20,8 @@ function LoginPage() {
             <Form.Control type="password"></Form.Control>
           </Form.Group>
         </Form>
+
+        
       </Container>
     </div>
   );

@@ -1,10 +1,14 @@
 import "holderjs";
 import StoreNavbar from "../components/NavbarComponent";
 import PageHeader from "../components/HeaderComponent";
-import { Button, Card, Container, Form } from "react-bootstrap";
+import {Col, Container, Form, Row } from "react-bootstrap";
+import ProductComponent from "../components/ProductComponent";
 
-import book_cover from "../assets/images/piano-book-cover1.jpg"
-
+// book imports
+import book1 from "../assets/images/books/alfred-piano1.jpg"
+import book2 from "../assets/images/books/beethoven_sonata.jpg"
+import book3 from "../assets/images/books/liszt_rhapsodies.jpg"
+import book4 from "../assets/images/books/piano_adventures1.jpg"
 
 function BooksShop() {
 
@@ -16,12 +20,17 @@ function BooksShop() {
       <StoreNavbar></StoreNavbar>
       <h1>Buy our books!</h1>
       <Container>
-        <ShoppingFilters 
-        filters={instruments} 
-        filterName="Instruments">
-
-        </ShoppingFilters>
-        <ShopProduct></ShopProduct>
+        <Row>
+          <Col>
+            <ShoppingFilters 
+              filters={instruments} 
+              filterName="Instruments">
+            </ShoppingFilters>
+          </Col>
+          <Col>
+            <Products></Products>
+          </Col>
+        </Row>
       </Container>
     </div>
   );
@@ -38,17 +47,35 @@ function ShoppingFilters(props) {
   )
 }
 
-function ShopProduct() {
+function Products() {
+
   return(
-    <div>
-      <Card style={{width: "18rem"}}>
-        <Card.Img src={book_cover}></Card.Img>
-        <Card.Body>
-          <Card.Title>Piano Beginner Book</Card.Title>
-          <Card.Text>This book will teach you the basics of piano.  </Card.Text>
-          <Button>Add to cart</Button>
-        </Card.Body>
-      </Card>
+    <div className="productsSection">
+      <ProductComponent
+        image={book1}
+        title="Book"
+        description="This is a piano book."
+        price="20.00"
+      />
+      <ProductComponent
+        image={book2}
+        title="Book"
+        description="This is a piano book."
+        price="20.00"
+      />
+      <ProductComponent
+        image={book3}
+        title="Book"
+        description="This is a piano book."
+        price="20.00"
+      />
+      <ProductComponent
+        image={book4}
+        title="Book"
+        description="This is a piano book."
+        price="20.00"
+      />
+
     </div>
   )
 }

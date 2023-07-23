@@ -1,13 +1,20 @@
-import { Carousel, Container, Image } from "react-bootstrap";
+import { Button, Carousel, Container, Image } from "react-bootstrap";
 import PageHeader from "../components/HeaderComponent";
 import StoreNavbar from "../components/NavbarComponent";
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import "holderjs";
 
 import piano_photo from "../assets/images/piano-photo.jpg"
 import guitar_photo from "../assets/images/guitar-photo.jpg"
+import ProductComponent from "../components/ProductComponent";
+
+import book_cover from "../assets/images/books/alfred-piano1.jpg"
 
 function HomePage() {
+
+  const { t, i18n } = useTranslation();
+
   return(
     <div>
       <PageHeader></PageHeader>
@@ -31,14 +38,15 @@ function HomeCarousel() {
       <Carousel>
         <Carousel.Item 
           className="w-100 homePageSlide">
-
           <img 
             className="w-100" 
             src={piano_photo} 
             alt="Photo of a piano."
           ></img>
-          <Carousel.Caption>
-            <h1>TEST</h1>
+          <Carousel.Caption className="carouselCaption">
+            <h1>Pianos</h1>
+            <p>Explore our high quality acoustic and digital pianos selection.</p>
+            <Button className="shopButton">Shop now</Button>
           </Carousel.Caption>
 
         </Carousel.Item>
@@ -49,8 +57,10 @@ function HomeCarousel() {
             alt="Photo of a guitar."
           ></img>
 
-           <Carousel.Caption>
-            <h1>Slide 2</h1>
+           <Carousel.Caption className="carouselCaption">
+            <h1>Guitars</h1>
+            <p>Classical or electric, we have options for you.</p>
+            <Button className="shopButton">Shop now</Button>
            </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
@@ -60,9 +70,21 @@ function HomeCarousel() {
 
 function LearnAnInstrument() {
   return(
-    <Container className="learnInstrument">
-      <h1>New to playing? Browse here.</h1>
-      <Image src="holder.js/1300x300"></Image>
+    <Container fluid className="learnInstrumentFluid">
+      <Container className="learnInstrument">
+        <h1>New to playing?</h1>
+        <p>Guitar starter kit.</p>
+
+        <ProductComponent
+          title="Piano Book"
+          description="Check this out!"
+          image={book_cover}
+          price="20.00"
+        ></ProductComponent>
+
+        <p>Piano starter kit.</p>
+
+      </Container>
       
     </Container>
   )

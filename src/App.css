@@ -3,12 +3,12 @@
 
 /* HEADER STYLE */
 .headerComponent {
-  background-color: rgb(133, 133, 133);
+  background-color: rgba(38,38,38,255);
 }
 
 .headerComponent {
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  /* padding-top: 0.5em;
+  padding-bottom: 0.5em; */
 }
 
 .headerComponent .headerContents {
@@ -31,8 +31,22 @@
 .homePageSlide img {
   height: 500px;
   object-fit: cover;
+
+}
+
+.homePageSlide .carouselCaption{
+  background-color: rgba(0, 0, 0, 0.75);
 }
 
 h1 {
   text-align: center;
 }
+
+.learnInstrumentFluid {
+  margin-top: 4em;
+  margin-bottom: 4em;
+  background-color: lightgray;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
