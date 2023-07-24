@@ -5,15 +5,16 @@ import {Button, Col, Container, Form, Row } from "react-bootstrap";
 import ProductComponent from "../components/ProductComponent";
 
 // book cover imports
-import book1 from "../assets/images/books/alfred-piano1.jpg"
-import book2 from "../assets/images/books/beethoven_sonata.jpg"
-import book3 from "../assets/images/books/liszt_rhapsodies.jpg"
-import book4 from "../assets/images/books/piano_adventures1.jpg"
-import book5 from "../assets/images/books/beethoven_furelise.jpg"
-import book6 from "../assets/images/books/alfred_guitar1.jpg"
-import book7 from "../assets/images/books/alfred_guitar2.jpg"
-import book8 from "../assets/images/books/classical_guitar_collection.jpg"
-import book9 from "../assets/images/books/ragtime_jazz1_piano.jpg"
+import book1 from "../assets/images/books/alfred-piano1.jpg";
+import book2 from "../assets/images/books/beethoven_sonata.jpg";
+import book3 from "../assets/images/books/liszt_rhapsodies.jpg";
+import book4 from "../assets/images/books/piano_adventures1.jpg";
+import book5 from "../assets/images/books/beethoven_furelise.jpg";
+import book6 from "../assets/images/books/alfred_guitar1.jpg";
+import book7 from "../assets/images/books/alfred_guitar2.jpg";
+import book8 from "../assets/images/books/classical_guitar_collection.jpg";
+import book9 from "../assets/images/books/ragtime_jazz1_piano.jpg";
+import { useTranslation } from "react-i18next";
 
 function BooksShop() {
   const instruments=["Piano", "Guitar"]
@@ -69,12 +70,16 @@ function ShoppingFilters(props) {
 }
 
 function Products() {
+
+  const { t, i18n } = useTranslation();
+
+
   return(
     <div className="shop">
       <ProductComponent
         image={book1}
-        title="Alfred Course Book 1"
-        description="A begginer piano course for adults."
+        title={t('titleBook1')}
+        description={t('descBook1')}
         price="20.00"
       />
       <ProductComponent
@@ -91,8 +96,8 @@ function Products() {
       />
       <ProductComponent
         image={book4}
-        title="Adult Piano Adventures"
-        description="Learn the piano with Faber's method book."
+        title={t('titleBook2')}
+        description={t('descBook2')}
         price="20.00"
       />
       <ProductComponent
@@ -103,14 +108,14 @@ function Products() {
       />
       <ProductComponent
         image={book6}
-        title="Alfred's Basic Guitar Method"
-        description="Learn the guitar with Alfred's Method book."
+        title={t('titleBook3')}
+        description={t('descBook3')}
         price="15.00"
       />
       <ProductComponent
         image={book7}
-        title="Alfred's Basic Guitar Method 2"
-        description="The second book in Alfred's guitar method series."
+        title={t('titleBook4')}
+        description={t('descBook4')}
         price="15.00"
       />
       <ProductComponent

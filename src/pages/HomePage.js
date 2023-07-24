@@ -9,7 +9,12 @@ import piano_photo from "../assets/images/piano-photo.jpg"
 import guitar_photo from "../assets/images/guitar-photo.jpg"
 import ProductComponent from "../components/ProductComponent";
 
-import book_cover from "../assets/images/books/alfred-piano1.jpg"
+import book1 from "../assets/images/books/alfred-piano1.jpg";
+import book4 from "../assets/images/books/piano_adventures1.jpg";
+import dpiano1 from "../assets/images/instruments/alesis_digital_piano.png";
+import book6 from "../assets/images/books/alfred_guitar1.jpg";
+import book7 from "../assets/images/books/alfred_guitar2.jpg";
+import cguitar1 from "../assets/images/instruments/valencia_classical_guitar.webp"
 import { t } from "i18next";
 
 function HomePage() {
@@ -73,18 +78,61 @@ function LearnAnInstrument() {
   return(
     <Container fluid className="learnInstrumentFluid my-3">
       <Container className="learnInstrument">
-        <h1>New to playing?</h1>
-        <p>Guitar starter kit.</p>
+        <h1>{t('newTitle')}</h1>
+        <h6>{t('newLabel')}</h6>
+        <div className="kit">
+          <h1 className="pageTitle">{t('kit1')}</h1>
+          <div className="kitContent d-flex justify-content-center">
+            <ProductComponent
+              image={book1}
+              title={t('titleBook1')}
+              description={t('descBook1')}
+              price="20.00"
+            />
+            <h2>+</h2>
+            <ProductComponent
+              image={book4}
+              title={t('titleBook2')}
+              description={t('descBook2')}
+              price="20.00"
+            />
+            <h2>+</h2>
+            <ProductComponent
+              image={dpiano1}
+              title={t('titleProd1')}
+              description={t('descProd1')}
+              price="300.00"
+            />  
 
-        <ProductComponent
-          title="Piano Book"
-          description="Check this out!"
-          image={book_cover}
-          price="20.00"
-        ></ProductComponent>
+          </div>
+        </div>
 
-        <p>Piano starter kit.</p>
-
+        <div className="kit">
+          <h1 className="pageTitle mt-5">{t('kit2')}</h1>
+          <div className="kitContent d-flex justify-content-center">
+            <ProductComponent
+              image={book6}
+              title={t('titleBook3')}
+              description={t('descBook3')}
+              price="15.00"
+            />
+            <h2>+</h2>
+            <ProductComponent
+              image={book7}
+              title={t('titleBook4')}
+              description={t('descBook4')}
+              price="15.00"
+            />
+            <h2>+</h2>
+            <ProductComponent
+              image={cguitar1}
+              title={t('titleProd2')}
+              description={t('descProd2')}
+              price="500.00"
+            />
+          </div>
+        </div>
+        <h1></h1>
       </Container>
       
     </Container>

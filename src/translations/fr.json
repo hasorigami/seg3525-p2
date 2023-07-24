@@ -11,7 +11,28 @@
       "slideCaption1": "Explorez notre sélection de pianos acoustiques et numériques.",
       "slideTitle2": "Guitares",
       "slideCaption2": "Trouvez la guitare pour vous. Il y a des options classiques, acoustiques et électriques disponibles.",
-      "shopButton": "Magasinez ici"
+      "shopButton": "Magasinez ici",
+
+      "addToCart": "Ajouter au panier",
+
+      "newTitle": "Nouveau instrumentiste?",
+      "newLabel": "Jetez un coup d'oeuil à nos kit de débutant. Ces produits vont vous enseigner les concepts fondamentaux de l'instrument de votre choix, et vous aidera à développer votre musicalité.",
+      "kit1" : "Kit de débutant piano",
+
+      "titleBook1" : "Alfred Course Livre 1",
+      "descBook1" : "Un cours pour un débutant au piano.",
+      "titleBook2": "Adult Piano Adventures Book 1",
+      "descBook2" : "Apprenez le piano avec la méthode de Faber.",
+      "titleProd1": "Alesis Piano Numérique",
+      "descProd1": "Piano numérique avec 88 touches entièrement lestées.",
+
+      "kit2": "Kit de débutant guitare",
+      "titleBook3": "Alfred's Basic Guitar Method",
+      "descBook3": "Apprenez la guitare avec le livre de méthode d'Alfred.",
+      "titleBook4": "Alfred's Basic Guitar Method 2",
+      "descBook4": "Le deuxième livre dans la méthode d'Alfred.", 
+      "titleProd2": "Yamaha Guitare Classique",
+      "descProd2": "Une Guitare classique de taille complète. Fabriquée à la main avec des techniques Espagnoles."
 
   } 
 }

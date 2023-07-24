@@ -13,6 +13,10 @@
   border-color: white;
 }
 
+h1.pageTitle {
+  border-bottom: 1px solid black;
+}
+
 
 
 /* HEADER STYLE */
@@ -61,6 +65,32 @@ h1 {
   padding-top: 1em;
   padding-bottom: 1em;
 }
+
+.kitContent {
+  flex-wrap: nowrap;
+  display: flex;
+
+}
+
+.kitContent h2 {
+  vertical-align: middle;
+  line-height: 40rem;
+  margin-top: 3rem;
+}
+
+
+.learnInstrument {
+  text-align: center;
+}
+
+.learnInstrument h6 {
+  font-size: 1.5em;
+  margin-right: 4em;
+  margin-left: 4em;
+  font-weight: normal;
+  padding-bottom: 2em;
+}
+
 
 /* Shopping cart style */
 

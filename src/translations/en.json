@@ -11,6 +11,28 @@
       "slideCaption1": "Explore our high quality acoustic and digital piano selection.",
       "slideTitle2": "Guitars",
       "slideCaption2": "Find the perfect guitar for you. Electric, acoustic and classical options available.",
-      "shopButton": "Shop now"
+      "shopButton": "Shop now",
+
+      "addToCart": "Add to cart",
+      
+      "newTitle": "New to playing?",
+      "newLabel": "Take a look at the assorted kits to get you started. These items will teach you the basics of your instrument of choice, and will be a strong foundation in your musicianship.",
+      "kit1" : "Piano Starter Kit",
+
+      "titleBook1" : "Alfred Course Book 1",
+      "descBook1" : "A begginer piano course for adults.",
+      "titleBook2": "Adult Piano Adventures Book 1",
+      "descBook2" : "Learn the piano with Faber's method book.",
+      "titleProd1": "Alesis Digital Piano",
+      "descProd1": "Digital piano with 88 fully weighed keys.",
+
+      "kit2": "Guitar Starter Kit",
+      "titleBook3": "Alfred's Basic Guitar Method",
+      "descBook3": "Learn the guitar with Alfred's method book.",
+      "titleBook4": "Alfred's Basic Guitar Method 2",
+      "descBook4": "The second book in the Alfred's guitar method series.", 
+      "titleProd2": "Yamaya Classical Guitar",
+      "descProd2": "A Classical full sized Yamaha Guitar. Handcrafted utilizing Spanish craftmanship"
+
   }
 }

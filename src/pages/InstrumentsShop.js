@@ -7,6 +7,7 @@ import cguitar1 from "../assets/images/instruments/valencia_classical_guitar.web
 import eguitar1 from "../assets/images/instruments/strat_electric_guitar.jpg"
 import ProductComponent from "../components/ProductComponent";
 import { Col, Container, Form, Row } from "react-bootstrap";
+import { useTranslation } from "react-i18next";
 
 
 function InstrumentsShop() {
@@ -52,12 +53,15 @@ function ShoppingFilters(props) {
 }
 
 function Products() {
+
+  const { t, i18n } = useTranslation();
+
   return(
     <div className="shop">
       <ProductComponent
         image={dpiano1}
-        title="Alesis Digital Piano"
-        description="Digital piano with 88 fully-weighed keys."
+        title={t('titleProd1')}
+        description={t('descProd1')}
         price="300.00"
       />
       <ProductComponent
@@ -68,9 +72,9 @@ function Products() {
       />
       <ProductComponent
         image={cguitar1}
-        title="Alesis Digital Piano"
-        description="Digital piano with 88 fully-weighed keys."
-        price="300.00"
+        title={t('titleProd2')}
+        description={t('descProd2')}
+        price="500.00"
       />
       <ProductComponent
         image={eguitar1}

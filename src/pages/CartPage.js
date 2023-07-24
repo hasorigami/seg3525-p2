@@ -14,7 +14,7 @@ function CartPage() {
       <Container>
         <h1>Shopping cart</h1>
         <CartItemsList></CartItemsList>
-        <p>Cart total: $100.00</p>
+        <h2 className="mb-4">Cart total: $100.00</h2>
         <LinkContainer to='/checkout'>
           <Button variant="standard">Proceed to checkout</Button>
         </LinkContainer>
@@ -41,8 +41,9 @@ function CartItem(props) {
           <Image src={piano_book1}></Image>
         </Col>
         <Col>
-          <h3>Piano book 1</h3>
-          <p>Description here</p>
+          <h3>Hungarian Rhapsodies, Volume I</h3>
+          <p>Listz's Hungarian Rhapsodies 1 to 8.</p>
+          <h4>Quanity: 1</h4>
         </Col>
       </Row>
 
