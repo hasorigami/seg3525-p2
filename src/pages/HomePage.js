@@ -10,6 +10,7 @@ import guitar_photo from "../assets/images/guitar-photo.jpg"
 import ProductComponent from "../components/ProductComponent";
 
 import book_cover from "../assets/images/books/alfred-piano1.jpg"
+import { t } from "i18next";
 
 function HomePage() {
 
@@ -34,7 +35,7 @@ function HomeCarousel() {
   };
 
   return(
-    <Container activeIndex={index} onSelect={handleSelect}>
+    <Container activeIndex={index} onSelect={handleSelect} className="my-3">
       <Carousel>
         <Carousel.Item 
           className="w-100 homePageSlide">
@@ -44,9 +45,9 @@ function HomeCarousel() {
             alt="Photo of a piano."
           ></img>
           <Carousel.Caption className="carouselCaption">
-            <h1>Pianos</h1>
-            <p>Explore our high quality acoustic and digital pianos selection.</p>
-            <Button className="shopButton">Shop now</Button>
+            <h1>{t('slideTitle1')}</h1>
+            <p>{t('slideCaption1')}</p>
+            <Button className="shopButton" variant="standard">{t('shopButton')}</Button>
           </Carousel.Caption>
 
         </Carousel.Item>
@@ -58,9 +59,9 @@ function HomeCarousel() {
           ></img>
 
            <Carousel.Caption className="carouselCaption">
-            <h1>Guitars</h1>
-            <p>Classical or electric, we have options for you.</p>
-            <Button className="shopButton">Shop now</Button>
+            <h1>{t('slideTitle2')}</h1>
+            <p>{t('slideCaption2')}</p>
+            <Button className="shopButton" variant="standard">{t('shopButton')}</Button>
            </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
@@ -70,7 +71,7 @@ function HomeCarousel() {
 
 function LearnAnInstrument() {
   return(
-    <Container fluid className="learnInstrumentFluid">
+    <Container fluid className="learnInstrumentFluid my-3">
       <Container className="learnInstrument">
         <h1>New to playing?</h1>
         <p>Guitar starter kit.</p>

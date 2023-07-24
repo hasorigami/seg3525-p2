@@ -1,6 +1,17 @@
 {
   "translation": {
-      "title": "Piano & Guitare Central" 
+      "title": "Piano & Guitare Central",
+      "navHome": "Accueil",
+      "navAbout": "À propos",
+      "navShop": "Magasin",
+      "navCart": "Panier",
+      "navLogin": "Se connecter",
+      "navBooks": "Livres",
+      "slideTitle1": "Pianos",
+      "slideCaption1": "Explorez notre sélection de pianos acoustiques et numériques.",
+      "slideTitle2": "Guitares",
+      "slideCaption2": "Trouvez la guitare pour vous. Il y a des options classiques, acoustiques et électriques disponibles.",
+      "shopButton": "Magasinez ici"
 
-  }
+  } 
 }

@@ -10,6 +10,7 @@ import CartPage from "./pages/CartPage";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
+import CheckoutPage from "./pages/CheckoutPage";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
           <Route path="about" element={<AboutPage />} />
           <Route path="cart" element={<CartPage />} />
           <Route path="login" element={<LoginPage />} />
-
+          <Route path="checkout" element={<CheckoutPage />} />
           <Route path="*" element={<HomePage />} />
           
       </Routes>

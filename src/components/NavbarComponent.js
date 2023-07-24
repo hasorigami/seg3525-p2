@@ -38,7 +38,7 @@ function StoreNavbar() {
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
         <LinkContainer to='/'>
-          <Navbar.Brand>Home</Navbar.Brand>
+          <Navbar.Brand>{t('navHome')}</Navbar.Brand>
         </LinkContainer>
     
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -46,16 +46,16 @@ function StoreNavbar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <LinkContainer to='/about'>
-              <Nav.Link>About us</Nav.Link> 
+              <Nav.Link>{t('navAbout')}</Nav.Link> 
             </LinkContainer>
-            <NavDropdown title="Shop">
+            <NavDropdown title={t('navShop')}>
 
               <LinkContainer to='/instruments'>
                 <NavDropdown.Item>Instruments</NavDropdown.Item>
               </LinkContainer>
 
               <LinkContainer to='/books'>
-                <NavDropdown.Item>Books</NavDropdown.Item>
+                <NavDropdown.Item>{t('navBooks')}</NavDropdown.Item>
               </LinkContainer>
   
             </NavDropdown>
@@ -73,7 +73,7 @@ function StoreNavbar() {
             </LinkContainer>
 
             <LinkContainer to='/login'>
-              <Button className='d-flex'>Log in</Button>
+              <Button className='d-flex' variant='standard'>{t('navLogin')}</Button>
             </LinkContainer>
 
           </Nav>

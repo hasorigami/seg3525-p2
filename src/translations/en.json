@@ -1,5 +1,16 @@
 {
   "translation": {
-      "title": "Piano & Guitar Central" 
+      "title": "Piano & Guitar Central",
+      "navHome": "Home",
+      "navAbout": "About Us",
+      "navShop": "Shop",
+      "navCart": "Shopping Cart",
+      "navLogin": "Log in",
+      "navBooks": "Books",
+      "slideTitle1": "Pianos",
+      "slideCaption1": "Explore our high quality acoustic and digital piano selection.",
+      "slideTitle2": "Guitars",
+      "slideCaption2": "Find the perfect guitar for you. Electric, acoustic and classical options available.",
+      "shopButton": "Shop now"
   }
 }

@@ -1,4 +1,18 @@
 
+/* General customization */
+.btn-standard {
+  background-color: white;
+  color: black;
+  border-style: 1px solid;
+  border-color: black;
+}
+
+.btn-standard:hover {
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+
 
 
 /* HEADER STYLE */
@@ -25,7 +39,7 @@
 /* HOME PAGE STYLES */
 
 .homePageSlide {
-  background-color: red;
+  background-color: black;
 }
 
 .homePageSlide img {
@@ -35,7 +49,7 @@
 }
 
 .homePageSlide .carouselCaption{
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 h1 {
@@ -43,10 +57,39 @@ h1 {
 }
 
 .learnInstrumentFluid {
-  margin-top: 4em;
-  margin-bottom: 4em;
   background-color: lightgray;
   padding-top: 1em;
   padding-bottom: 1em;
+}
+
+/* Shopping cart style */
+
+.cartItem{
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  margin-top: 2em;
+}
+
+.cartItem img{
+  height: 300px;
+}
+
+/* Product style */
+
+.componentCard .card-img {
+  object-fit: cover;
+  height: 30rem;
+}
+/* Shops style */
+
+.shop {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shopPage h1 {
+  border-bottom: 1px solid black;
 }
 
