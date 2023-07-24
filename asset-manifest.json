@@ -1,13 +1,29 @@
 {
   "files": {
-    "main.css": "/seg3525-p2/static/css/main.c01b5878.css",
-    "main.js": "/seg3525-p2/static/js/main.c8035bd1.js",
+    "main.css": "/seg3525-p2/static/css/main.064ed7d6.css",
+    "main.js": "/seg3525-p2/static/js/main.840a3924.js",
+    "static/media/alfred-piano1.jpg": "/seg3525-p2/static/media/alfred-piano1.1d6bb3172b55a1c69b13.jpg",
+    "static/media/ragtime_jazz1_piano.jpg": "/seg3525-p2/static/media/ragtime_jazz1_piano.8be0022064b4175e62bb.jpg",
+    "static/media/beethoven_sonata.jpg": "/seg3525-p2/static/media/beethoven_sonata.9551923d7cb7a1d7e228.jpg",
+    "static/media/alfred_guitar1.jpg": "/seg3525-p2/static/media/alfred_guitar1.5d408369674919a096e6.jpg",
+    "static/media/alfred_guitar2.jpg": "/seg3525-p2/static/media/alfred_guitar2.6dd5fd71c4228879bce4.jpg",
+    "static/media/beethoven_furelise.jpg": "/seg3525-p2/static/media/beethoven_furelise.065cd9144a5290a65d84.jpg",
+    "static/media/strat_electric_guitar.jpg": "/seg3525-p2/static/media/strat_electric_guitar.009674d4fd646df46add.jpg",
+    "static/media/classical_guitar_collection.jpg": "/seg3525-p2/static/media/classical_guitar_collection.8ec259239b04f479c9ed.jpg",
+    "static/media/piano_adventures1.jpg": "/seg3525-p2/static/media/piano_adventures1.ceec137e83908201ad08.jpg",
+    "static/media/StoreLogo1.png": "/seg3525-p2/static/media/StoreLogo1.9a3dfe0aad56778cc749.png",
+    "static/media/guitar-photo.jpg": "/seg3525-p2/static/media/guitar-photo.c2d2318dc2febb6b182c.jpg",
+    "static/media/rolandfp10_digital_piano.jpg": "/seg3525-p2/static/media/rolandfp10_digital_piano.a25132ceb36b9da37ca5.jpg",
+    "static/media/piano-photo.jpg": "/seg3525-p2/static/media/piano-photo.c8dc1010ea9a59f1ba0f.jpg",
+    "static/media/liszt_rhapsodies.jpg": "/seg3525-p2/static/media/liszt_rhapsodies.bbf5e6633b8251f823bb.jpg",
+    "static/media/valencia_classical_guitar.webp": "/seg3525-p2/static/media/valencia_classical_guitar.2014b4c7ad165d9db429.webp",
+    "static/media/alesis_digital_piano.png": "/seg3525-p2/static/media/alesis_digital_piano.f94508ce39db1be7582d.png",
     "index.html": "/seg3525-p2/index.html",
-    "main.c01b5878.css.map": "/seg3525-p2/static/css/main.c01b5878.css.map",
-    "main.c8035bd1.js.map": "/seg3525-p2/static/js/main.c8035bd1.js.map"
+    "main.064ed7d6.css.map": "/seg3525-p2/static/css/main.064ed7d6.css.map",
+    "main.840a3924.js.map": "/seg3525-p2/static/js/main.840a3924.js.map"
   },
   "entrypoints": [
-    "static/css/main.c01b5878.css",
-    "static/js/main.c8035bd1.js"
+    "static/css/main.064ed7d6.css",
+    "static/js/main.840a3924.js"
   ]
 }
