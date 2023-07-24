@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/seg3525-p2/static/css/main.064ed7d6.css",
-    "main.js": "/seg3525-p2/static/js/main.840a3924.js",
+    "main.css": "/seg3525-p2/static/css/main.63e5fccf.css",
+    "main.js": "/seg3525-p2/static/js/main.8c39839b.js",
     "static/media/alfred-piano1.jpg": "/seg3525-p2/static/media/alfred-piano1.1d6bb3172b55a1c69b13.jpg",
     "static/media/ragtime_jazz1_piano.jpg": "/seg3525-p2/static/media/ragtime_jazz1_piano.8be0022064b4175e62bb.jpg",
     "static/media/beethoven_sonata.jpg": "/seg3525-p2/static/media/beethoven_sonata.9551923d7cb7a1d7e228.jpg",
@@ -19,11 +19,11 @@
     "static/media/valencia_classical_guitar.webp": "/seg3525-p2/static/media/valencia_classical_guitar.2014b4c7ad165d9db429.webp",
     "static/media/alesis_digital_piano.png": "/seg3525-p2/static/media/alesis_digital_piano.f94508ce39db1be7582d.png",
     "index.html": "/seg3525-p2/index.html",
-    "main.064ed7d6.css.map": "/seg3525-p2/static/css/main.064ed7d6.css.map",
-    "main.840a3924.js.map": "/seg3525-p2/static/js/main.840a3924.js.map"
+    "main.63e5fccf.css.map": "/seg3525-p2/static/css/main.63e5fccf.css.map",
+    "main.8c39839b.js.map": "/seg3525-p2/static/js/main.8c39839b.js.map"
   },
   "entrypoints": [
-    "static/css/main.064ed7d6.css",
-    "static/js/main.840a3924.js"
+    "static/css/main.63e5fccf.css",
+    "static/js/main.8c39839b.js"
   ]
 }
